@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Landing page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Poppins">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/app.css?v=1499599821614">
+	<!--[if IE 9]>
+		<link rel="stylesheet" href="css/ie9.css">
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="header__logo"></a>
+        <nav class="page-nav">
+            <div onclick="myFunction()" class="page-nav__toggle">
+                <div class="page-nav__bar"></div>
+                <div class="page-nav__bar"></div>
+                <div class="page-nav__bar"></div>
+            </div>
+            <ul id='myDropdown' class="page-nav__list">
+                <li class="page-nav__item  page-nav__item--active">
+                    <a href="#">Home</a>
+                </li>
+                <li class="page-nav__item">
+                    <a href="#">Portfolio</a>
+                </li>
+                <li class="page-nav__item">
+                    <a href="#">Galleries</a>
+                <li class="page-nav__item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="page-nav__item">
+                    <a href="#">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="slider">
+                <h2 class="visually-hidden">Slider</h2>
+                <ul class="slider-items">
+                    <li class="slider__item-1"><img class="slider__image" src="../img/baloons.jpeg" alt="first-photo"></li>
+                    <li class="slider__item-2"><img class="slider__image" src="../img/people.jpeg" alt="second-photo"></li>
+                    <li class="slider__item-3"><img class="slider__image" src="../img/geography.jpeg" alt="third-photo"></li>
+                    <li class="slider__item-4"><img class="slider__image" src="../img/sky.jpg" alt="fourth-photo"></li>
+                </ul>
+                <div class="slider-bullets">
+                    <label class="slider-bullet-1">
+                        <span class="slider-bullet__item-1"></span>
+                    </label>
+                    <label class="slider-bullet-2">
+                        <span class="slider-bullet__item-2"></span>
+                    </label>
+                    <label class="slider-bullet-3">
+                        <span class="slider-bullet__item-3"></span>
+                    </label>
+                    <label class="slider-bullet-4">
+                        <span class="slider-bullet__item-4"></span>
+                    </label>
+                </div>
+            </div>
+        </section>
+        <section>
+          <div class="feature">
+            <div class="feature__rectangle"></div>
+            <h2 class="feature__title">Products <strong>photography</strong> package!</h2>
+            <p class="feature__text">You never trust the quality of something with attractive appearance? How does it feel to be both highly stunning and highly intelligent? Pretty much powerful and Authoritative. Absolutely trustful. That's the attributes you needed for your  blog to spread your stories and projects. And that's what Bistort is all about.</p>
+            <a class="btn" href="#">Click Join !</a>
+          </div>
+        </section>
+        <section>
+            <div class=" portfolio">
+                <h2 class="portfolio__title">My portfolio</h2>
+                <p class="portfolio__text">Contrary to popular belief, Lorem ipsum is not simple random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                <div class="portfolio__list">
+                    <div class="portfolio__item">
+                        <div class="portfolio__img">
+                            <div class="portfolio__date-box">
+                                <time datetime="2016-11-15" class="portfolio__date"><p>15<br>November</p></time>
+                            </div>
+                        </div>
+                        <p class="portfolio__description">Albus flora Cosmetics show all picture</p>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__img">
+                            <div class="portfolio__date-box">
+                                <time datetime="2016-11-28" class="portfolio__date"><p>28<br>November</p></time>
+                            </div>
+                        </div>
+                        <p class="portfolio__description">Fresh Food Galleries show all picture</p>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__img">
+                            <div class="portfolio__date-box">
+                                <time datetime="2016-10-14" class="portfolio__date"><p>14<br>October</p></time>
+                            </div>
+                        </div>
+                        <p class="portfolio__description">Face Food Cosmetics show all picture</p>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__img">
+                            <div class="portfolio__date-box">
+                                <time datetime="2016-12-20" class="portfolio__date"><p>20<br>December</p></time>
+                            </div>
+                        </div>
+                        <p class="portfolio__description">Handbag fashion Lookbook Tous</p>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__img">
+                            <div class="portfolio__date-box">
+                                <time datetime="2016-12-05" class="portfolio__date"><p>05<br>December</p></time>
+                            </div>
+                        </div>
+                        <p class="portfolio__description">Bizze Florida Corporate Event Photographers</p>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__img">
+                            <div class="portfolio__date-box">
+                                <time datetime="2016-08-21" class="portfolio__date"><p>21<br>August</p></time>
+                            </div>
+                        </div>
+                        <p class="portfolio__description">Biciu piencas Products handmade Galleries</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="stats">
+                <h2 class="stats__caption  visually-hidden">Achievements</h2>
+                <div class="stats__item">
+                    <strong class="stats__key">432</strong>
+                    <p class="stats__value">Project</p>
+                </div>
+                <div class="stats__item">
+                    <strong class="stats__key">86</strong>
+                    <p class="stats__value">Clients</p>
+                </div>
+                <div class="stats__item">
+                    <strong class="stats__key">856</strong>
+                    <p class="stats__value">Best Shot</p>
+                </div>
+                <div class="stats__item">
+                    <strong class="stats__key">25</strong>
+                    <p class="stats__value">New Brand</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="promo">
+                <div class="promo__container">
+                    <h4 class="promo__subtitle">Album</h4>
+                    <h3 class="promo__title">Nature</h3>
+                    <p class="promo__description">Themespond is a fashion product selling online website. With the missionto bring the utility in purchasing for customer, we is offering  over 4 million products from more than 20 different brands. There are alteration in some formdomised words lievable. Themespond is a fashion product selling online website...</p>
+                    <a class="btn btn--modify" href="#">View album &rarr;</a>
+                </div>
+                <div class="promo-gallery">
+                    <img src="../img/people.jpeg" class="promo-gallery__item" alt="Gallery item">
+                    <img src="../img/people.jpeg" class="promo-gallery__item" alt="Gallery item">
+                    <img src="../img/people.jpeg" class="promo-gallery__item" alt="Gallery item">
+                    <img src="../img/people.jpeg" class="promo-gallery__item" alt="Gallery item">
+                </div>
+            </div>
+            <div class="promo  promo--right">
+                <div class="promo__container">
+                    <h2 class="advertisement__caption  visually-hidden">Advertisement</h2>
+                    <h4 class="promo__subtitle">Album</h4>
+                    <h3 class="promo__title">Furniture</h3>
+                    <p class="promo__description">Themespond is a fashion product selling online website. With the missionto bring the utility in purchasing for customer, we is offering  over 4 million products from more than 20 different brands. There are alteration in some formdomised words lievable. Themespond is a fashion product selling online website...</p>
+                    <a class="btn btn--modify btn--reverse" href="#">View album &rarr;</a>
+                </div>
+                <div class="promo-gallery  promo-gallery--right">
+                    <img src="../img/people.jpeg" class="promo-gallery__item  promo-gallery__item--right" alt="Gallery item">
+                    <img src="../img/people.jpeg" class="promo-gallery__item  promo-gallery__item--right" alt="Gallery item">
+                    <img src="../img/people.jpeg" class="promo-gallery__item  promo-gallery__item--right" alt="Gallery item">
+                    <img src="../img/people.jpeg" class="promo-gallery__item  promo-gallery__item--right" alt="Gallery item">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+            <p class="footer__address">732/21 Second Street, Manchester, King Street, Kingston United Kingdom</p>
+            <p class="footer__phone">(36)456-6578-234</p>
+            <p class="footer__email">support@bistort.com</p>
+            <div class="social">
+                    <div class="social-links">
+                        <a class="social-link social-link--fb" href="#"><img src="../img/facebook.png"  width="10px" height="16px"></a>
+                        <a class="social-link social-link--tw" href="#"><img src="../img/twitter.png" width="14px" height="12px"></a>
+                        <a class="social-link social-link--periscope" href="#"><img src="../img/periscope.png" width="12px" height="15px"></a>
+                        <a class="social-link social-link--google" href="#"><img src="../img/google.png" width="21px" height="15px"></a>
+                        <a class="social-link social-link--inst" href="#"><img src="../img/instagram.png" width="15px" height="15px"></a>
+                    </div>
+            </div>
+            <div class="footer__bar"></div>
+            <p class="footer__copyright">&copy Copyright 2016 by Themespond</p>
+    </footer>
+
+	<script src="js/plugins.min.js"></script>
+	<script src="js/app.js?v=1499599821614"></script>
+	<script>
+	  function myFunction() {
+	     document.getElementById("myDropdown").classList.toggle("show");
+			//document.querySelector(".page-nav__list").classList.toggle("show");
+			console.log('Quiiiiii');
+
+}
+
+window.onclick = function(event) {
+	event.preventDefault();
+  if (!event.target.matches('.page-nav__toggle')) {
+    var dropdowns = document.getElementsByClassName("page-nav__list");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+	</script>
+</body>
+</html>
