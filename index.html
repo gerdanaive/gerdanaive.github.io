@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Poppins">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/app.css?v=1499599821614">
+	<link rel="stylesheet" href="css/app.css?v=1499673039353">
 	<!--[if IE 9]>
 		<link rel="stylesheet" href="css/ie9.css">
 	<![endif]-->
@@ -19,12 +19,12 @@
     <header class="header">
         <a href="#" class="header__logo"></a>
         <nav class="page-nav">
-            <div onclick="myFunction()" class="page-nav__toggle">
+            <div class="page-nav__toggle">
                 <div class="page-nav__bar"></div>
                 <div class="page-nav__bar"></div>
                 <div class="page-nav__bar"></div>
             </div>
-            <ul id='myDropdown' class="page-nav__list">
+            <ul class="page-nav__list">
                 <li class="page-nav__item  page-nav__item--active">
                     <a href="#">Home</a>
                 </li>
@@ -203,29 +203,6 @@
     </footer>
 
 	<script src="js/plugins.min.js"></script>
-	<script src="js/app.js?v=1499599821614"></script>
-	<script>
-	  function myFunction() {
-	     document.getElementById("myDropdown").classList.toggle("show");
-			//document.querySelector(".page-nav__list").classList.toggle("show");
-			console.log('Quiiiiii');
-
-}
-
-window.onclick = function(event) {
-	event.preventDefault();
-  if (!event.target.matches('.page-nav__toggle')) {
-    var dropdowns = document.getElementsByClassName("page-nav__list");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-
-	</script>
+	<script src="js/app.js?v=1499673039353"></script>
 </body>
 </html>

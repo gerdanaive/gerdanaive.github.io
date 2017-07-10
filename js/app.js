@@ -1,2 +1,2 @@
-"use strict";
+"use strict";document.addEventListener("click",function(e){var t=document.getElementsByClassName("page-nav__toggle")[0];e.target.closest(".page-nav__list")||e.target===t||e.target.parentNode===t||document.getElementsByClassName("page-nav__list")[0].classList.remove("show")}),document.getElementsByClassName("page-nav__toggle")[0].addEventListener("click",function(e){document.getElementsByClassName("page-nav__list")[0].classList.toggle("show")});
 //# sourceMappingURL=../js/app.js.map
